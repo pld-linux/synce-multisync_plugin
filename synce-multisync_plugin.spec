@@ -1,5 +1,5 @@
 Summary:	Plugin SynCE for MultiSync
-Summary(pl):	Plugin SynCE do MultiSync
+Summary(pl):	Wtyczka SynCE do MultiSynca
 Name:		synce-multisync_plugin
 Version:	0.9.0
 Release:	0.2
@@ -9,11 +9,11 @@ Group:		Applications/Communications
 Source0:	http://dl.sourceforge.net/synce/%{name}-%{version}.tar.gz
 # Source0-md5:	0273cac4d2bce299aec8a51b08101985
 URL:		http://synce.sourceforge.net/
-BuildRequires:	synce-devel = %{version}
-BuildRequires:	multisync-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gtk+2-devel >= 1:2.0.0
+BuildRequires:	multisync-devel
+BuildRequires:	synce-devel = %{version}
 Requires:	synce
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -22,8 +22,8 @@ This plugin is allows synchronization of address book data with
 Windows CE 3.0 (Pocket PC) or later
 
 %description -l pl
-Plugin dodaje mo퓄iwo뜻 synchronizacji danych programu multisync z
-Pocket PC poprzez SynCE
+Ta wtyczka dodaje mo퓄iwo뜻 synchronizacji danych programu multisync z
+Pocket PC poprzez SynCE.
 
 %prep
 %setup -q
