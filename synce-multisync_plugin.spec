@@ -17,6 +17,7 @@ BuildRequires:	multisync-devel
 BuildRequires:	pkgconfig
 BuildRequires:	synce-rra-devel >= 0.9.0
 Requires:	synce-rra >= 0.9.0
+ExcludeArch:	alpha amd64 ppc64 s390x sparc64
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
