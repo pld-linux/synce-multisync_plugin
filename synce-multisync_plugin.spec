@@ -2,7 +2,7 @@ Summary:	Plugin SynCE for MultiSync
 Summary(pl):	Wtyczka SynCE do MultiSynca
 Name:		synce-multisync_plugin
 Version:	0.9.0
-Release:	0.2
+Release:	1
 License:	MIT
 Vendor:		The SynCE Project
 Group:		Applications/Communications
