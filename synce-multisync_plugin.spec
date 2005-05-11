@@ -15,9 +15,10 @@ BuildRequires:	gtk+2-devel >= 1:2.0.0
 BuildRequires:	libtool
 BuildRequires:	multisync-devel
 BuildRequires:	pkgconfig
+BuildRequires:	rpmbuild(macros) >= 1.213
 BuildRequires:	synce-rra-devel >= 0.9.0
 Requires:	synce-rra >= 0.9.0
-ExcludeArch:	alpha amd64 ppc64 s390x sparc64
+ExcludeArch:	%{x8664} alpha ia64 ppc64 s390x sparc64
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
