@@ -8,7 +8,7 @@ Vendor:		The SynCE Project
 Group:		Applications/Communications
 Source0:	http://dl.sourceforge.net/synce/%{name}-%{version}.tar.gz
 # Source0-md5:	0273cac4d2bce299aec8a51b08101985
-URL:		http://synce.sourceforge.net/
+URL:		http://www.synce.org/
 BuildRequires:	autoconf >= 2.53
 BuildRequires:	automake >= 1.4
 BuildRequires:	gtk+2-devel >= 1:2.0.0
