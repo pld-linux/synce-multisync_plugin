@@ -1,5 +1,5 @@
 Summary:	Plugin SynCE for MultiSync
-Summary(pl.UTF-8):   Wtyczka SynCE do MultiSynca
+Summary(pl.UTF-8):	Wtyczka SynCE do MultiSynca
 Name:		synce-multisync_plugin
 Version:	0.9.0
 Release:	1
