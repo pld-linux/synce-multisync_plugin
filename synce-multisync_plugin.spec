@@ -1,5 +1,5 @@
 Summary:	Plugin SynCE for MultiSync
-Summary(pl):	Wtyczka SynCE do MultiSynca
+Summary(pl.UTF-8):   Wtyczka SynCE do MultiSynca
 Name:		synce-multisync_plugin
 Version:	0.9.0
 Release:	1
@@ -25,8 +25,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This plugin is allows synchronization of address book data with
 Windows CE 3.0 (Pocket PC) or later.
 
-%description -l pl
-Ta wtyczka dodaje mo¿liwo¶æ synchronizacji danych programu multisync z
+%description -l pl.UTF-8
+Ta wtyczka dodaje moÅ¼liwoÅ›Ä‡ synchronizacji danych programu multisync z
 Pocket PC (z Windows CE 3.0 lub nowszym) poprzez SynCE.
 
 %prep
